@@ -1,0 +1,48 @@
+h1 {
+  position: relative;
+  font-size: 50px;
+  font-family: Roboto;
+  top: 40px;
+  left: 135px;
+}
+
+#profile {
+  position: relative;
+  top: 50px;
+  left: 60px;
+}
+
+.socmed {
+  position: relative;
+  top: 90px;
+  left: 200px;
+}
+
+h2 {
+  position: relative;
+  font-size: 40px;
+  font-family: Roboto;
+  top: 90px;
+  left: 155px;
+}
+
+h3 {
+  position: relative;
+  font-size: 35px;
+  font-family: Roboto;
+  top: 70px;
+  left: 279px;
+}
+
+p {
+  text-align: left;
+  font-size: 24px;
+  transform: scaleX(0.7);
+}
+
+.hello {
+  background-color: cadetblue;
+  width: 200px;
+  position: relative;
+  left: 1000px;
+}
