@@ -23,7 +23,7 @@ h2 {
   font-size: 40px;
   font-family: Roboto;
   top: 90px;
-  left: 155px;
+  left: 140px;
 }
 
 h3 {
@@ -31,18 +31,21 @@ h3 {
   font-size: 35px;
   font-family: Roboto;
   top: 70px;
-  left: 279px;
+  left: 266px;
+}
+
+#paragraph {
+  background-color: burlywood;
+  width: 1200px;
+  height: 800px;
+  position: relative;
+  left: 908px;
+  bottom: 895px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Roboto;
 }
 
 p {
-  text-align: left;
-  font-size: 24px;
-  transform: scaleX(0.7);
-}
-
-.hello {
-  background-color: cadetblue;
-  width: 200px;
-  position: relative;
-  left: 1000px;
+  margin-top: 50px;
 }
