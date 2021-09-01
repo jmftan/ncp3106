@@ -12,17 +12,11 @@ h1 {
   left: 60px;
 }
 
-.socmed {
-  position: relative;
-  top: 90px;
-  left: 212px;
-}
-
 h2 {
   position: relative;
   font-size: 40px;
   font-family: Roboto;
-  top: 85px;
+  top: 47px;
   left: 183px;
 }
 
@@ -30,8 +24,14 @@ h3 {
   position: relative;
   font-size: 35px;
   font-family: Roboto;
-  top: 63px;
-  left: 285px;
+  top: 23px;
+  left: 286px;
+}
+
+.socmed {
+  position: relative;
+  top: 26px;
+  left: 212px;
 }
 
 #paragraph {
@@ -40,7 +40,7 @@ h3 {
   height: 800px;
   position: relative;
   left: 812px;
-  bottom: 800px;
+  bottom: 835px;
   text-align: center;
   font-size: 24px;
   font-family: Roboto;
