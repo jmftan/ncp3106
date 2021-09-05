@@ -1,0 +1,182 @@
+@media all and (min-width: 500px) {
+  body {
+    background-color: #407c51;
+  }
+}
+
+#body1 {
+  width: 100%;
+  height: 91vh;
+  background-color: #407c51;
+  font-family: "Black Ops One", cursive;
+}
+
+#profile {
+  margin-left: 93px;
+  margin-top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 65px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+h1 {
+  margin-top: -402px;
+  margin-left: -32px;
+}
+
+h2 {
+  margin-top: 63px;
+  margin-left: 197px;
+}
+
+h3 {
+  margin-left: 608px;
+}
+
+#adjust-headers {
+  margin-top: -428px;
+}
+
+#adjust-elements {
+  margin-top: 126px;
+}
+
+#animation1 {
+  margin: 0 auto;
+  margin-top: 220px;
+}
+
+#body2 {
+  border: 1px solid black;
+  width: 100%;
+  height: 49vh;
+  background-color: #407c51;
+  font-family: "Black Ops One", cursive;
+  text-align: center;
+  color: antiquewhite;
+}
+
+h4 {
+  margin-top: auto;
+  font-size: 60px;
+  margin-bottom: 2px;
+}
+
+#myParagraph {
+  margin-bottom: 40px;
+  font-size: 31px;
+  margin-top: 15px;
+  margin-left: 200px;
+  background-color: #407c51;
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  font-size: 21px;
+  text-align: justify;
+}
+
+#background {
+  background-color: antiquewhite;
+}
+
+#myInfo {
+  position: relative;
+  top: -194px;
+  font-size: 21px;
+}
+
+p2 {
+  position: relative;
+  left: -288px;
+}
+
+p3 {
+  position: relative;
+  left: -274px;
+}
+
+p4 {
+  position: relative;
+  left: -365px;
+}
+
+p5 {
+  position: relative;
+  bottom: 153px;
+  left: 349px;
+}
+
+p6 {
+  position: relative;
+  bottom: 153px;
+  left: 241px;
+}
+
+#aboutMe {
+  position: relative;
+  top: 13px;
+}
+
+#animation2 {
+  position: relative;
+  bottom: 772px;
+  left: 9px;
+}
+
+#animation3 {
+  position: relative;
+  bottom: 772px;
+  margin: 0 auto;
+  bottom: 1300px;
+  left: 760px;
+}
+
+#body3 {
+  margin-top: 100px;
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+  background-color: #407c51;
+  text-align: center;
+  color: antiquewhite;
+}
+
+h5 {
+  margin-top: auto;
+  font-size: 60px;
+}
+
+.boxes {
+  position: relative;
+  top: -75px;
+  width: 1912px;
+  height: 380px;
+  margin: 0 auto;
+}
+
+.col {
+  width: 300px;
+  height: 300px;
+  background-color: #2b5336;
+  float: left;
+  border: 1px solid black;
+  margin: 40px;
+}
+
+.button {
+  background-color: maroon;
+  border: 1px solid black;
+  color: black;
+  font-family: roboto;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 170px;
+}
