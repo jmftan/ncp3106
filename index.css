@@ -40,107 +40,85 @@ h3 {
 
 #adjust-headers {
   margin-top: -428px;
+  width: 1900px;
+  margin-left: 97px;
 }
 
 #adjust-elements {
-  margin-top: 126px;
+  position: relative;
+  margin-top: -3px;
+  right: 57px;
 }
 
 #animation1 {
   margin: 0 auto;
-  margin-top: 220px;
+  margin-left: 877px;
+  margin-top: 150px;
 }
 
 #body2 {
-  border: 1px solid black;
   width: 100%;
-  height: 49vh;
+  height: 70vh;
+  position: relative;
+  top: 50px;
   background-color: #407c51;
   font-family: "Black Ops One", cursive;
   text-align: center;
   color: antiquewhite;
 }
 
-h4 {
-  margin-top: auto;
-  font-size: 60px;
-  margin-bottom: 2px;
-}
-
-#myParagraph {
-  margin-bottom: 40px;
-  font-size: 31px;
-  margin-top: 15px;
-  margin-left: 200px;
-  background-color: #407c51;
-  width: 900px;
-  height: 400px;
+.box1 {
+  position: relative;
+  top: -75px;
+  width: 1850px;
+  height: 380px;
   margin: 0 auto;
-  font-size: 21px;
+}
+
+.column1 {
+  width: 800px;
+  height: 500px;
+  background-color: #407c51;
+  position: relative;
+  left: 543px;
   text-align: justify;
+  font-size: 24px;
 }
 
-#background {
-  background-color: antiquewhite;
-}
+#myInfo1 {
+  width: 320px;
+  margin: 0 auto;
+  text-align: justify;
 
-#myInfo {
+  font-size: 19px;
   position: relative;
-  top: -194px;
-  font-size: 21px;
+  bottom: 200px;
+  right: 222px;
 }
 
-p2 {
+#myInfo2 {
+  width: 378px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 19px;
   position: relative;
-  left: -288px;
-}
-
-p3 {
-  position: relative;
-  left: -274px;
-}
-
-p4 {
-  position: relative;
-  left: -365px;
-}
-
-p5 {
-  position: relative;
-  bottom: 153px;
-  left: 349px;
-}
-
-p6 {
-  position: relative;
-  bottom: 153px;
-  left: 241px;
-}
-
-#aboutMe {
-  position: relative;
-  top: 13px;
+  bottom: 339px;
+  left: 229px;
 }
 
 #animation2 {
-  position: relative;
-  bottom: 772px;
-  left: 9px;
-}
-
-#animation3 {
-  position: relative;
-  bottom: 772px;
   margin: 0 auto;
-  bottom: 1300px;
-  left: 760px;
+  position: relative;
+  bottom: 780px;
+  left: 17px;
 }
 
 #body3 {
-  margin-top: 100px;
-  border: 1px solid black;
-  width: 100%;
+  position: relative;
+  top: 220px;
+  width: 99.5%;
   height: 100vh;
+  margin: 0 auto;
   background-color: #407c51;
   text-align: center;
   color: antiquewhite;
@@ -148,24 +126,26 @@ p6 {
 
 h5 {
   margin-top: auto;
+  position: relative;
+  left: 20px;
   font-size: 60px;
 }
 
-.boxes {
+.box2 {
   position: relative;
   top: -75px;
-  width: 1912px;
+  width: 1852px;
   height: 380px;
   margin: 0 auto;
 }
 
-.col {
+.column2 {
   width: 300px;
   height: 300px;
   background-color: #2b5336;
   float: left;
   border: 1px solid black;
-  margin: 40px;
+  margin: 34px;
 }
 
 .button {
@@ -179,4 +159,18 @@ h5 {
   display: inline-block;
   font-size: 16px;
   margin-top: 170px;
+}
+
+.lockedMP {
+  position: relative;
+  bottom: 195px;
+  margin: 0 auto;
+}
+
+.unlockedMP {
+  position: relative;
+  bottom: 190px;
+  margin: 0 auto;
+  bottom: 215px;
+  margin: 0 auto;
 }
