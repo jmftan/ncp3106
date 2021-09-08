@@ -1,7 +1,5 @@
-@media all and (min-width: 500px) {
-  body {
-    background-color: #407c51;
-  }
+body {
+  background-color: #407c51;
 }
 
 #body1 {
@@ -146,6 +144,7 @@ h5 {
   float: left;
   border: 1px solid black;
   margin: 34px;
+  font-family: roboto;
 }
 
 .button {
@@ -158,7 +157,7 @@ h5 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 170px;
+  margin-top: 168px;
 }
 
 .lockedMP {
