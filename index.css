@@ -50,8 +50,14 @@ h3 {
 
 #animation1 {
   margin: 0 auto;
-  margin-left: 877px;
+  margin-left: 857px;
   margin-top: 150px;
+}
+
+#buttonPhotos {
+  position: relative;
+  bottom: 350px;
+  left: 101px;
 }
 
 #body2 {
@@ -65,9 +71,17 @@ h3 {
   color: antiquewhite;
 }
 
+h5 {
+  margin-top: auto;
+  position: relative;
+  left: 0px;
+  font-size: 60px;
+}
+
 .box1 {
   position: relative;
   top: -75px;
+  left: -18px;
   width: 1850px;
   height: 380px;
   margin: 0 auto;
@@ -107,8 +121,8 @@ h3 {
 #animation2 {
   margin: 0 auto;
   position: relative;
-  bottom: 780px;
-  left: 17px;
+  bottom: 770px;
+  left: 21px;
 }
 
 #body3 {
@@ -122,17 +136,17 @@ h3 {
   color: antiquewhite;
 }
 
-h5 {
+h6 {
   margin-top: auto;
   position: relative;
-  left: 20px;
+  left: 0px;
   font-size: 60px;
 }
 
 .box2 {
   position: relative;
   top: -75px;
-  width: 1852px;
+  width: 1850px;
   height: 380px;
   margin: 0 auto;
 }
