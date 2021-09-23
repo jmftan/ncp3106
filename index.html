@@ -4,183 +4,372 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="index.css" />
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist\css\bootstrap.min.css" />
   </head>
 
-  <body style="margin: 0; height: 100%; overflow-x: hidden">
-    <div id="body1">
-      <div id="adjust-elements">
-        <div id="myPhoto">
-          <img src="Images/myPic.png" alt="myPic" width="480" height="480" />
-        </div>
+  <body style="background-color: goldenrod">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo"><a href="MyPersonalWebsite.html">MyFolio</a></h1>
 
-        <div id="adjust-headers">
-          <h1>MY NAME IS JAMES TAN</h1>
-          <h2>ENGINEERING STUDENT</h2>
-          <h3>FUTURE COMPUTER ENGINEER</h3>
-        </div>
-
-        <div id="animation1">
-          <a href="#body2">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player
-              src="https://assets1.lottiefiles.com/packages/lf20_48vyt3qj.json"
-              background="transparent"
-              speed="1"
-              style="width: 300px; height: 300px"
-              loop
-              autoplay
-            ></lottie-player>
-          </a>
-        </div>
-
-        <div id="buttonPhotos">
-          <a href="#body3"
-            ><img
-              src="Images/MachineProblem.png"
-              alt="MachineProblem"
-              width="228"
-              height="59"
-              hspace="17"
-          /></a>
-
-          <a href="https://www.facebook.com/Matt.Tan031515"
-            ><img
-              src="Images/ContactMe.png"
-              alt="ContactMe"
-              width="181"
-              height="59"
-          /></a>
-        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#AboutMe">About</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#MachineProblem"
+                >Machine Problems</a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#ArduinoProjects"
+                >Arduino Projects</a
+              >
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </div>
+    </header>
+    <!-- End Header -->
 
-    <div id="body2">
-      <div>
-        <h5>ABOUT ME</h5>
-      </div>
-
-      <div class="box1">
-        <div class="column1">
-          <p>
-            James Matthew F. Tan is a third-year computer engineering student
-            from The University of the East. He is a competent and hardworking
-            student. He always wants to achieve great things in life and that
-            includes being a great engineer and have the chance to work with one
-            of the greatest minds of this generation like Elon Musk, Jeff Bezos,
-            and Bill Gates. He knows he needs to work hard and at the same time
-            work smart to achieve those great things, he is willing to do
-            everything that is needed to be done to achieve a life where he is
-            at the top.
-          </p>
-        </div>
-
-        <div id="myInfo1">
-          <p2><br />Name: James Matthew F. Tan<br /></p2>
-          <p3><br />Student Number: 20170123214<br /></p3>
-          <p4><br />Course: BSCPE<br /></p4>
-        </div>
-
-        <div id="myInfo2">
-          <p5><br />School: UE Manila<br /></p5>
-          <p6><br />Email: tan.jamesmatthew@ue.edu.ph<br /></p6>
-        </div>
-
-        <div id="animation2">
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-          <lottie-player
-            src="https://assets7.lottiefiles.com/packages/lf20_bXRG9q.json"
-            background="transparent"
-            speed="1"
-            style="width: 500px; height: 500px"
-            loop
-            autoplay
-          ></lottie-player>
-        </div>
-      </div>
-    </div>
-
-    <div id="body3">
-      <h6>MY MACHINE PROBLEMS</h6>
-
-      <div class="box2">
-        <div class="column2">
-          <p>Machine Problem 1</p>
-          <a href="StudentBioNote/MP1.html"
-            ><button class="button">MP1</button></a
-          >
-          <div class="unlockedMP">
-            <img
-              src="Images/MP1.jpg"
-              alt="UnlockedMP1"
-              width="290"
-              height="140"
-            />
-          </div>
-        </div>
-
-        <div class="column2">
-          <p>Machine Problem 2</p>
-          <a href="StudentBioNoteV2/MP2.html"
-            ><button class="button">MP2</button></a
-          >
-          <div class="unlockedMP">
-            <img
-              src="Images/MP2.jpg"
-              alt="UnlockedMP2"
-              width="290"
-              height="140"
-            />
-          </div>
-        </div>
-
-        <div class="column2">
-          <p>Machine Problem 3</p>
-          <a href="index.html"><button class="button">MP3</button></a>
-          <div class="unlockedMP">
-            <img
-              src="Images/MP3.jpg"
-              alt="UnlockedMP3"
-              width="290"
-              height="140"
-            />
-          </div>
-        </div>
-
-        <div class="column2">
-          <p>Machine Problem 4</p>
-          <a href="MyPersonalWebsite/MyPersonalWebsite.html"
-            ><button class="button">MP4</button></a
-          >
-          <div class="unlockedMP">
-            <img
-              src="Images/MP4.jpg"
-              alt="LockedMP4"
-              width="290"
-              height="140"
-            />
-          </div>
-        </div>
-        <div class="column2">
-          <p>Machine Problem 5</p>
-          <a href=""><button class="button">Locked</button></a>
-          <div class="lockedMP">
-            <img
-              src="Images/LockIcon.png"
-              alt="LockedMP5"
-              width="100"
-              height="100"
-            />
+    <!-- ======= Hero Section ======= -->
+    <div id="hero" class="hero route bg-image" style="background-color: black">
+      <div class="overlay-itro"></div>
+      <div class="hero-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <div class="row">
+              <svg viewBox="0 0 960 300">
+                <symbol id="s-text">
+                  <text text-anchor="middle" x="50%" y="40%">James Tan</text>
+                </symbol>
+                <g class="g-ants">
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- End Hero Section -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-5">
+                        <div class="about-img">
+                          <img
+                            src="Images/myPicSq.png"
+                            class="img-fluid rounded b-shadow-a"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-7">
+                        <div class="about-info">
+                          <p>
+                            <span class="title-s">Name: </span>
+                            <span>James Matthew F. Tan</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Profile: </span>
+                            <span>Engineering Student</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Email: </span>
+                            <span>matt.taning121299@gmail.com</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Phone: </span>
+                            <span>(+63) 9770971992</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-mf">
+                      <p class="title-s">Skill</p>
+                      <span>Drink</span> <span class="pull-right">100%</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 100%"
+                          aria-valuenow="100"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                      <span>Sleep</span> <span class="pull-right">95%</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 95%"
+                          aria-valuenow="95"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                      <span>Watch Netflix</span>
+                      <span class="pull-right">90%</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 90%"
+                          aria-valuenow="90"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                      <span>Programming</span>
+                      <span class="pull-right">1%</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 1%"
+                          aria-valuenow="1"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="about-me pt-4 pt-md-0">
+                      <div class="title-box-2">
+                        <h5 class="title-left">About me</h5>
+                      </div>
+                      <p class="lead">
+                        Curabitur non nulla sit amet nisl tempus convallis quis
+                        ac lectus. Curabitur arcu erat, accumsan id imperdiet
+                        et, porttitor at sem. Praesent sapien massa, convallis a
+                        pellentesque nec, egestas non nisi. Nulla porttitor
+                        accumsan tincidunt.
+                      </p>
+                      <p class="lead">
+                        Mauris blandit aliquet elit, eget tincidunt nibh
+                        pulvinar a. Vivamus suscipit tortor eget felis porttitor
+                        volutpat. Vestibulum ac diam sit amet quam vehicula
+                        elementum sed sit amet dui. porttitor at sem.
+                      </p>
+                      <p class="lead">
+                        Nulla porttitor accumsan tincidunt. Quisque velit nisi,
+                        pretium ut lacinia in, elementum id enim. Nulla
+                        porttitor accumsan tincidunt. Mauris blandit aliquet
+                        elit, eget tincidunt nibh pulvinar a.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Machine Problem ======= -->
+      <section class="section site-portfolio" id="MachineProblem">
+        <div class="container">
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+              <h1>Machine Problems</h1>
+            </div>
+            <div
+              class="col-md-12 col-lg-6 text-start text-lg-end"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            ></div>
+          </div>
+          <div
+            id="portfolio-grid"
+            class="row no-gutter"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="http://127.0.0.1:5500/ncp3106/StudentBioNote/MP1.html"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>Student Bio Note</h3>
+                  <span>Machine Problem No.1</span>
+                </div>
+                <img class="img-fluid" src="MachineProblems/MP1.jpg" />
+              </a>
+            </div>
+            <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="http://127.0.0.1:5500/ncp3106/StudentBioNoteV2/MP2.html"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>Student Bio Note v2</h3>
+                  <span>Machine Problem No.2</span>
+                </div>
+                <img class="img-fluid" src="MachineProblems/MP2.jpg" />
+              </a>
+            </div>
+            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="http://127.0.0.1:5500/ncp3106/index.html"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>My Portfolio</h3>
+                  <span>Machine Problem No.3</span>
+                </div>
+                <img class="img-fluid" src="MachineProblems/MP3.jpg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Machine Problem -->
+
+      <!-- ======= Arduino Projects ======= -->
+      <section class="section site-portfolio" id="ArduinoProjects">
+        <div class="container">
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+              <h1>Arduino Projects</h1>
+            </div>
+            <div
+              class="col-md-12 col-lg-6 text-start text-lg-end"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            ></div>
+          </div>
+          <div
+            id="portfolio-grid"
+            class="row no-gutter"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="https://www.tinkercad.com/things/hkO5qj8dr7Y"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>Digital Inputs, Outputs, and Pulse-Width Modulation</h3>
+                  <span>Coursework No.3</span>
+                </div>
+                <img class="img-fluid" src="ArduinoProjects/CW3.png" />
+              </a>
+            </div>
+            <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="https://www.tinkercad.com/things/kGeVevxSEud"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>Analog Processing in Arduino</h3>
+                  <span>Coursework No.4</span>
+                </div>
+                <img class="img-fluid" src="ArduinoProjects/CW4.png" />
+              </a>
+            </div>
+            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="https://www.tinkercad.com/things/hlWJOMtmG0U"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>E1 - Tilt Sensor</h3>
+                  <span>Coursework No.5</span>
+                </div>
+                <img class="img-fluid" src="ArduinoProjects/E1.png" />
+              </a>
+            </div>
+
+            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="https://www.tinkercad.com/things/7IYlKxvpcPg"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>E2 - Photoresistor</h3>
+                  <span>Coursework No.5</span>
+                </div>
+                <img class="img-fluid" src="ArduinoProjects/E2.png" />
+              </a>
+            </div>
+
+            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="https://www.tinkercad.com/things/kIFK4KRy63q"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>E3 - Passive Infrared Sensor</h3>
+                  <span>Coursework No.5</span>
+                </div>
+                <img class="img-fluid" src="ArduinoProjects/E3.png" />
+              </a>
+            </div>
+
+            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="https://www.tinkercad.com/things/eSHoMbmyCCu"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>E4 - Ultrasonic Sensor</h3>
+                  <span>Coursework No.5</span>
+                </div>
+                <img class="img-fluid" src="ArduinoProjects/E4.png" />
+              </a>
+            </div>
+
+            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="https://www.tinkercad.com/things/ll9zOEQuwXD"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>E5 - Force Sensor & Piezo Buzzer</h3>
+                  <span>Coursework No.5</span>
+                </div>
+                <img class="img-fluid" src="ArduinoProjects/E5.png" />
+              </a>
+            </div>
+
+            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a
+                href="https://www.tinkercad.com/things/49B1WGbMzoe"
+                class="item-wrap fancybox"
+              >
+                <div class="work-info">
+                  <h3>E6 - Temperature Sensor</h3>
+                  <span>Coursework No.5</span>
+                </div>
+                <img class="img-fluid" src="ArduinoProjects/E6.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Arduino Projects -->
+    </main>
   </body>
 </html>
