@@ -333,7 +333,7 @@ h6,
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: black;
   width: 100px;
   bottom: -12px;
 }
@@ -710,7 +710,7 @@ h6,
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: black;
 }
 
 /***********************************************************************************************************************************************************************/
@@ -7552,9 +7552,31 @@ fieldset:disabled .btn {
 .mt-4 {
   margin-top: 1.5rem !important;
 }
+
+.mt-41 {
+  margin-top: 2rem !important;
+}
+
 .mt-5 {
   margin-top: 3rem !important;
 }
+
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
+.mt-7 {
+  margin-top: 5rem !important;
+}
+
+.mt-8 {
+  margin-top: 6rem !important;
+}
+
+.mt-9 {
+  margin-top: 7rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7597,6 +7619,31 @@ fieldset:disabled .btn {
 .mb-5 {
   margin-bottom: 3rem !important;
 }
+
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 6rem !important;
+}
+
+.mb-9 {
+  margin-bottom: 7rem !important;
+}
+
+.mb-10 {
+  margin-bottom: 8rem !important;
+}
+
+.mb-11 {
+  margin-bottom: 9rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -7639,6 +7686,23 @@ fieldset:disabled .btn {
 .p-5 {
   padding: 3rem !important;
 }
+
+.p-6 {
+  padding: 4rem !important;
+}
+
+.p-7 {
+  padding: 5rem !important;
+}
+
+.p-8 {
+  padding: 6rem !important;
+}
+
+.p-9 {
+  padding: 7rem !important;
+}
+
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
