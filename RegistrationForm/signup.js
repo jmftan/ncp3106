@@ -11,13 +11,14 @@ function checkValidates() {
 
   if (title.value == "") {
     window.alert("Please enter title.");
+    title.focus();
 
     return false;
   }
 
   if (fullName.value == "") {
     window.alert("Please enter full name.");
-    username.focus();
+    fullname.focus();
 
     return false;
   }
@@ -91,6 +92,8 @@ function checkValidates() {
 
   if (terms.checked === false) {
     window.alert("Please check the box if you want to proceed.");
+    terms.focus();
+
     return false;
   }
 
